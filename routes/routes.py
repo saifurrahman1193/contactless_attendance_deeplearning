@@ -1,5 +1,5 @@
 from fastapi import APIRouter, FastAPI, Request
-from routes import datascience
+from routes import face_detection
 
 router = APIRouter()
 
@@ -9,7 +9,4 @@ async def root(request: Request):
 
 def register_routes(app: FastAPI):
     app.include_router(router, prefix="") 
-    app.include_router(datascience.router, prefix="/api/ds")
-
-
-# [{"operator_id": 1, "last_n_days_dataset_input": [0, 0, 0, 0, 0, "2", 0]}]
+    app.include_router(face_detection.router, prefix="/api/face-detection")

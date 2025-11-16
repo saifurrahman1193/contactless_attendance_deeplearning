@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Request, status
 from typing import List
-from schemas.datascience import OperatorUsageForecastRequest
+from schemas.face_detection import OperatorUsageForecastRequest
 from controllers.datascience_controller import handle_operator_usage_forecasting
 
 router = APIRouter()

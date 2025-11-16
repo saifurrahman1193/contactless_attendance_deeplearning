@@ -1,4 +1,4 @@
-from schemas.datascience import OperatorUsageForecastRequest
+from schemas.face_detection import OperatorUsageForecastRequest
 import os
 import sys
 import json
