@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  contactless_attendance_deeplearning_service:
+    container_name: contactless-attendance-deeplearning-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    volumes:
+      - .:/app
+    ports:
+      - "85:8000"

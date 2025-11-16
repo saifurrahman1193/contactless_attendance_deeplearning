@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+asyncpg          # For PostgreSQL
+sqlalchemy       # ORM (optional)
+pydantic         # Data validation
+python-dotenv    # Environment variables
+
+# Optional Data Science libs
+pandas
+numpy
+scikit-learn
