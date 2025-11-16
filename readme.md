@@ -7,9 +7,9 @@ sudo docker-compose build && docker-compose up -d
 ---
 
 ### 🌐 Access: 
-Visit → [http://localhost:83](http://localhost:83)
+Visit → [http://localhost:85](http://localhost:85)
 
-API Docs → [http://localhost:83/docs](http://localhost:83/docs)
+API Docs → [http://localhost:85/docs](http://localhost:85/docs)
 
 ---
 
@@ -108,7 +108,7 @@ To ensure your FastAPI application runs **indefinitely** on Windows Server, auto
 4. **Actions Tab**:
    - Action: *Start a program*.
    - Program: `cmd.exe`
-   - Arguments: `/c cd /d D:\project\wintext_ds && uvicorn main:app --host 0.0.0.0 --port 83`
+   - Arguments: `/c cd /d D:\project\wintext_ds && uvicorn main:app --host 0.0.0.0 --port 85`
 5. **Settings Tab**:
    - Check: *Allow task to be run on demand*.
    - Check: *Restart the task if it fails* (set to restart every 1 minute).
