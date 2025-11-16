@@ -127,3 +127,8 @@ To ensure your FastAPI application runs **indefinitely** on Windows Server, auto
 | **Docker** | Best isolation/portability | Requires Docker setup |
 
 ---
+
+
+# Links
+- https://github.com/nicknochnack/FaceDetection/blob/main/FaceDetection.ipynb
+- https://www.youtube.com/watch?v=N_W4EYtsa10
