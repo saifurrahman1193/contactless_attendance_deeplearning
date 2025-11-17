@@ -5,7 +5,7 @@ from controllers.face_detection_controller import handle_face_detection
 router = APIRouter()
 
 @router.get(
-    "/operator-usage-forecasting", status_code=status.HTTP_200_OK
+    "/check", status_code=status.HTTP_200_OK
 )
 async def face_detection():
     try:
