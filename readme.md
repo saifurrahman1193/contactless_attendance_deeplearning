@@ -119,12 +119,12 @@ To ensure your FastAPI application runs **indefinitely** on Windows Server, auto
 ---
 
 ### **Comparison Table**
-| Method | Pros | Cons |
-|--------|------|------|
-| **Task Scheduler** | Built into Windows | Less robust for crashes |
-| **NSSM** | Runs as a proper service | Requires manual setup |
-| **PM2** | Easy logging/restarts | Needs Node.js installed |
-| **Docker** | Best isolation/portability | Requires Docker setup |
+| Method             | Pros                       | Cons                    |
+| ------------------ | -------------------------- | ----------------------- |
+| **Task Scheduler** | Built into Windows         | Less robust for crashes |
+| **NSSM**           | Runs as a proper service   | Requires manual setup   |
+| **PM2**            | Easy logging/restarts      | Needs Node.js installed |
+| **Docker**         | Best isolation/portability | Requires Docker setup   |
 
 ---
 
